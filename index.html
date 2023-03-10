@@ -5,19 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/common/index.css">
+    <script src="/common/index.js"></script>
     <title>메뉴레시피</title>
 </head>
 <body>
     <div class="wrap">
        <div class="hader">
-        <input type="text">
-        <input type="button" value="메뉴추가">
+       <!-- <form action="get"> -->
+        <input type="text" name="recipeName">
+        <input type="button" value="메뉴찾기" name="add">
+        <div class="recipeBox">hello</div>
+       <!-- </form> -->
        </div>
         <div class="content">
-            <table>
-                <th>음료</th>
-
-            </table>
+         <div class="category coffee">
+            <h3>커피</h3>
+            <span class="menuName">아메</span>
+            <span>레시피</span>
+            <span class="menuName">시럽아메</span>
+            <span>레시피</span>
+         </div> 
+         <div class="category latte">
+            <h3>라떼</h3>
+            <span class="menuName">녹차라떼</span>
+            <span>레시피</span>
+            <span class="menuName">초코라떼</span>
+            <span>레시피</span>
+         </div>
+         <div class="category Smoothie">
+            <h3>스무디</h3>
+            <span class="menuName">요거트스무디</span>
+            <span>레시피</span>
+            <span class="menuName">쿠앤크스무디</span>
+            <span>레시피</span>
+         </div>
         </div>
 
     </div>

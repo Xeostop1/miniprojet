@@ -22,5 +22,13 @@ body{
     margin-right: 30px;
 }
 .content{
+    display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+.category {
+    border: 1px solid #ccc;
+}
+.category h3{
+    border: 1px solid #ccc;
 }
