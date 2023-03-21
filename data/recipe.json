@@ -1,0 +1,42 @@
+{
+    "items":[
+        {
+            "type":"coffee",
+           "name" : "아메",
+           "hot": 320,
+           "ice": 250
+        },
+        {
+            "type":"coffee",
+            "name" : "콜드브루",
+            "concentrate": 70,
+            "hot": 250,
+            "ice": 200
+        },
+        {
+            "type":"coffee",
+            "name" : "헤이즐럿 아메",
+            "syrup": 30,
+            "pump": 3,
+            "hot": 320,
+            "ice": 250
+        },
+        {
+            "type":"coffee",
+            "name" : "콜드브루 아인슈페너",
+            "syrup": 30,
+            "concentrate": 90,
+            "cream": "20+50+5",
+            "ice": 150,
+            "cup": 16
+        },
+        {
+            "type":"coffee",
+            "name" : "바닐라라떼",
+            "syrup": 30,
+            "pump": 2.5,
+            "ice": 200,
+            "hot": 220
+        }
+    ]
+}

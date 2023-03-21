@@ -11,34 +11,54 @@
 <body>
     <div class="wrap">
        <div class="hader">
-       <!-- <form action="get"> -->
-        <input type="text" name="recipeName">
-        <input type="button" value="메뉴찾기" name="add">
-        <div class="recipeBox">hello</div>
-       <!-- </form> -->
+         <div class="recipeBox">검색하면 나오는 레시피</div>
+        <form action="get" class="form"> 
+            <input type="text" name="recipeName" class="recipeStr">
+            <input type="submit" value="메뉴찾기" class="recipebtn">
+       </form>
        </div>
         <div class="content">
+      
          <div class="category coffee">
             <h3>커피</h3>
-            <span class="menuName">아메</span>
-            <span>레시피</span>
-            <span class="menuName">시럽아메</span>
-            <span>레시피</span>
+            <div class="menuName">
+               <span>아메</span>
+               <span class="recipe ">H:320 I:250</span>
+            </div>
+            <div class="menuName">
+               <span>시럽라떼</span>
+               <span class="recipe ">시럽:3(30g)/H:220 I:200</span>
+            </div>
+            <div class="menuName">
+               <span>카페모카</span>
+               <span class="recipe ">소스:1/시럽:1/H:220 I:200</span>
+            </div>
          </div> 
+         
          <div class="category latte">
-            <h3>라떼</h3>
-            <span class="menuName">녹차라떼</span>
-            <span>레시피</span>
-            <span class="menuName">초코라떼</span>
-            <span>레시피</span>
+            <h3>베버리지 라떼</h3>
+            <div class="menuName">
+               <span>초코라떼</span>
+               레시피
+            </div>
+            <div class="menuName">
+               <span>버블티</span>
+               레시피
+            </div>
          </div>
+         
          <div class="category Smoothie">
-            <h3>스무디</h3>
-            <span class="menuName">요거트스무디</span>
-            <span>레시피</span>
-            <span class="menuName">쿠앤크스무디</span>
-            <span>레시피</span>
+            <div class="menuName">
+               <h3>스무디</h3>
+               <span>죠리퐁스무디</span>
+               레시피
+            </div>
+            <div class="menuName">
+               <span>쿠앤크스무디</span>
+               레시피
+            </div>
          </div>
+         
         </div>
 
     </div>

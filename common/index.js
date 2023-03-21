@@ -1,29 +1,29 @@
 window.addEventListener("load", ()=>{
-    const addBtn=document.querySelector("input[name='add']");
-    const content=document.querySelector(".menuName");
-    const recipeStr=content.nextSibling.nextSibling.innerText;    
-    const recipeBox=document.querySelector(".recipeBox");
-   
+    const recipeName=document.querySelector(".recipeStr");
+    //서브밋에 이벤트 걸기
+    const form =document.querySelector(".form");
+    //쿼리셀렉터All로 메뉴명's 찾기 span
+    const menuName=document.querySelectorAll(".menuName span");
     
-    addBtn.addEventListener("click",()=>{
-        let recipeName=document.querySelector("input[name='recipeName']").value;
-        recipeSeting(recipeName)
-    })
 
-    function recipeSeting(_name){
-        let recipeName=content.innerText;
-        if(recipeName===_name){
-            recipeBox.append(setHtml(recipeStr,recipeName));
+    // ====form 이벤트리스너=======
+    form.addEventListener('submit', (e)=>{
+        // 리로드 막기
+        e.preventDefault();
+        let searchName=name();
+        
+        for (let i = 0; i < menuName.length; i++) {
+            if(searchName===menuName[i].textContent){
+                
+            }
+            
         }
-        return 
+    });
+    
+    // 인풋값 찾기
+    function name(){
+        let name= recipeName.value;
+        return name;
     }
-    const setHtml=(recipe, name)=>{
-        return `<span class="menuName">${name}</span>
-        <span>${recipe}</span>`
-    }
-
-    // function setHtml(recipe, name){
-       
-    // }
-
+    
 });

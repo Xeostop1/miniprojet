@@ -3,32 +3,49 @@
     margin: 0;
 }
 body{
-    width: 700px;
-    margin: 0 auto;
-    
+   margin: 0 auto;    
 }
 .wrap{
-    background-color:#fcfcfc;
-    display: flex;
-    justify-content: center;
-    border-radius: 10px;
+    border: red solid 1px;
+ 
 }
+
+/* 헤더 */
+/* 여기에 플렉스 주고 사이드로 밀기 */
 .hader{
-    height: 100px;
-    line-height: 100px;
-}
-.hader input{
-    height: 30px;
-    margin-right: 30px;
-}
-.content{
+    background-color: red;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 20px;
+    
 }
-.category {
+/* 검색하면 나오는 공간 */
+.recipeBox{
+
+}
+.recipeStr{
+    font-size: 27px;
+    width: 200px;
+    height: 53px;
+}
+.recipebtn{
+    font-size: 23px;
+    width: 150px;
+    height: 53px;
+    margin-right: 10px;
+}
+/* 레시피 전체 본문 */
+.content{
+    margin-top: 500px;
+    display: flex;
+}
+/* 카테고리 전체 */
+.category{
+    border: 1px solid #ccc;  
+    width: 300px;
+}
+/* 커피 카테고리 */
+.coffee{
     border: 1px solid #ccc;
 }
-.category h3{
-    border: 1px solid #ccc;
-}
+    
