@@ -37,6 +37,15 @@
             "pump": 2.5,
             "ice": 200,
             "hot": 220
+        },
+        {
+            "type":"coffee",
+            "name" : "카페모카",
+            "syrup": 10,
+            "source":25,
+            "pump": 1,
+            "ice": 200,
+            "hot": 220
         }
     ]
 }
